@@ -201,38 +201,6 @@ Phase 6 — Release
 * [ ]	Prepare distribution package.
 * [ ]	Publish development release.
 
-10. PROPOSED REPOSITORY STRUCTURE
-
-ViceX/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── docs/
-│   ├── architecture.md
-│   ├── d3d12_vulkan.md
-│   ├── runtime.md
-│   ├── shader_system.md
-│   └── security.md
-│
-├── src/
-│   ├── core/
-│   ├── runtime/
-│   ├── graphics/
-│   ├── shaders/
-│   ├── memory/
-│   └── diagnostics/
-│
-├── tests/
-│   ├── graphics/
-│   ├── runtime/
-│   └── shaders/
-│
-├── tools/
-│
-└── assets/
-    └── images/
 
 🔴 This is a proposed structure, not a representation of verified existing files.
 
