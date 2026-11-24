@@ -38,9 +38,14 @@ System compatibility	Reproduce selected operating-system and platform interfaces
 Performance research	Investigate efficient execution on modern PC hardware
 
 ⸻
+<p align="center">
+  <strong>
+    <span style="color:red;">THE SOURCE CODE WILL BE RELEASED TONIGHT AT 9:00 PM (ITALIAN TIME).</span>
+  </strong>
+</p>
 
 02 — TECHNICAL ARCHITECTURE
-
+⸻
 ViceX is designed as a modular software architecture.
 
 Each subsystem has a specific responsibility and can be developed, tested and documented independently.
