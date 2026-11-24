@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="grand_theft_auto_vice_city_text_logo_by_95wolfie95_dcg8jdj.png" alt="ViceX — Official Project Banner" width="100%">
+  <img src="51bb6888-2ce0-8c4e-8322-754d0ea595c9.jpeg" alt="ViceX — Official Project Banner" width="100%">
 </p>
 <h1 align="center">ViceX</h1>
 <h3 align="center">INDEPENDENT XBOX-TO-PC COMPATIBILITY RESEARCH PROJECT</h3>
