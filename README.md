@@ -77,6 +77,19 @@ Nothing is playable on any platform yet (see *Project status*). What runs where 
 | AMD RDNA1 (RX 5000) | A supported target: close to the console's RDNA2, and its 64-wide subgroups run the wave64 shaders natively. RX 5700 XT results pass the GPU test suite (#146); on RADV, pixel shaders without fragment barycentrics have a known difference (*Known problems* in [docs/testing.md](docs/testing.md)) (#330). |
 
 GPU results from every platform are collected in #166; how to run the tests is in [docs/testing.md](docs/testing.md).
+<p align="center">
+  <strong style="color:#ff3333;">
+    LEONIDA'S LEGACY DOES NOT END HERE.
+  </strong>
+  <br>
+  <span style="color:#ff3333;">
+    An independent continuation of the original LEONIDA project, created to preserve its technical vision, carry forward the work left behind, and keep pushing the boundaries of Xbox-to-PC compatibility.
+    <br><br>
+    Projects may be abandoned, development may stop, and obstacles may seem impossible — but the work, the knowledge, and the passion behind them do not have to disappear.
+    <br>
+    To every developer and modder: never give up on what you believe can be built.
+  </span>
+</p>
 
 ## How to build
 
