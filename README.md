@@ -5,7 +5,7 @@
 </a>
 
   <br>
-  <b>Leonida</b>
+  <b>Leonida2.0</b>
   <br>
 </h1>
 
@@ -34,7 +34,7 @@ happens **on your PC, from your own copy of the game**.
 > Everything the build creates (the generated shaders, extracted assets, the runtime folder and your saves) comes
 > from your game and stays on your PC. Never share those files.
 
-Discord: https://discord.gg/rexed
+Discord: COMING...
 <br>
 
 ## Project status
@@ -63,7 +63,19 @@ The table above is written by hand. To measure it on your own checkout (unit and
 the translator contract were confirmed on a GPU, measured imports, your corpus counts and, with `--github`, CI
 and the `D3D-` items), run `python -I tools/progress_dashboard.py --out <folder outside the repo>` and open
 `progress.html` ([notes](docs/progress_dashboard.md)).
-
+<p align="center">
+  <strong style="color:#ff3333 !important;">
+    LEONIDA'S LEGACY DOES NOT END HERE.
+  </strong>
+  <br>
+  <span style="color:#ff3333 !important;">
+    An independent continuation of the original LEONIDA project, created to preserve its technical vision, carry forward the work left behind, and keep pushing the boundaries of Xbox-to-PC compatibility.
+    <br><br>
+    Projects may be abandoned, development may stop, and obstacles may seem impossible — but the work, the knowledge, and the passion behind them do not have to disappear.
+    <br>
+    To every developer and modder: never give up on what you believe can be built.
+  </span>
+</p>
 
 ## Platforms
 
