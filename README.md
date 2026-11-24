@@ -1,9 +1,8 @@
-LEONIDA
-
-<p align="center">
+ <p align="center">
   <img src="grand_theft_auto_vice_city_text_logo_by_95wolfie95_dcg8jdj.png" alt="LEONIDA — Project Banner" width="100%">
 </p>
-<h3 align="center">Independent Xbox-to-PC Compatibility Research Project</h3>
+<h1 align="center">LEONIDA</h1>
+<h3 align="center">INDEPENDENT XBOX-TO-PC COMPATIBILITY RESEARCH PROJECT</h3>
 <p align="center">
   Researching runtime compatibility, executable loading and graphics translation for PC environments.
 </p>
@@ -28,9 +27,9 @@ The project is currently under active development.
 
 Its architecture, components and implementation are being developed through structured engineering missions, technical reports and incremental validation.
 
-Project vision
+PROJECT VISION
 
-Objective	Description
+OBJECTIVE	DESCRIPTION
 Runtime independence	Develop an independent execution and compatibility environment
 Executable infrastructure	Research PE loading and executable compatibility
 Graphics translation	Investigate Direct3D and Vulkan interoperability
@@ -46,10 +45,12 @@ LEONIDA is designed as a modular software architecture.
 
 Each subsystem has a specific responsibility and can be developed, tested and documented independently.
 
-Subsystem	Main responsibility	Current status
+CORE COMPONENTS
+
+SUBSYSTEM	MAIN RESPONSIBILITY	DEVELOPMENT STATUS
 PE Loader	Executable loading infrastructure	In development
 Runtime Core	Runtime initialization and management	In development
-Registry Shims	Registry compatibility and resolution	Implementation work completed in selected areas
+Registry Shims	Registry compatibility and resolution	Selected implementation work completed
 DXGI Loader	DXGI module loading and safety	Documented safety work completed
 DXGI Compatibility	Graphics interface compatibility	In development
 D3D12 Compatibility	Direct3D 12 infrastructure	In development
@@ -59,29 +60,29 @@ Export Resolution	Export names, ordinals and typed resolution	Improvements imple
 
 Statuses describe individual development areas, not complete end-to-end compatibility.
 
-Graphics translation architecture
+GRAPHICS TRANSLATION ARCHITECTURE
 
 The intended graphics architecture is organized around this conceptual pipeline:
 
-       Xbox-Oriented Software
+       XBOX-ORIENTED SOFTWARE
                  |
                  v
-          Runtime Core
+          RUNTIME CORE
                  |
                  v
-        Compatibility Layer
+        COMPATIBILITY LAYER
                  |
                  v
-          DXGI / D3D12
+           DXGI / D3D12
                  |
                  v
-       Graphics Translation
+       GRAPHICS TRANSLATION
                  |
                  v
-              Vulkan
+              VULKAN
                  |
                  v
-           PC Hardware
+           PC HARDWARE
 
 The complete pipeline is an architectural objective. Its full operation has not yet been demonstrated.
 
@@ -91,19 +92,31 @@ The complete pipeline is an architectural objective. Its full operation has not 
 
 Development is organized into missions with explicit objectives, implementation boundaries and validation requirements.
 
-Selected development milestones
+SELECTED DEVELOPMENT MILESTONES
 
-Mission	Area	Result
+MISSION	ENGINEERING AREA	RESULT
 12A	Shader index documentation	Completed
 12C.3	DXGI loader safety	Completed with limitations
 12C.3	Export resolution	Name/ordinal collision handling addressed
 12C.3	Registry infrastructure	Typed ExportKey implementation documented
 
-Engineering standards
+CURRENT PROJECT SITUATION
+
+AREA	CURRENT SITUATION	WHAT IT MEANS
+Architecture	Modular architecture under development	Core design is being progressively established
+Loader	Development ongoing	Complete executable compatibility is not established
+DXGI	Selected safety work completed	Further compatibility implementation is required
+D3D12	Under development	Full graphics compatibility is not demonstrated
+Vulkan	Under development	Complete rendering integration remains unverified
+Shaders	Infrastructure under development	Complete shader translation is not established
+Runtime integration	Not yet demonstrated end-to-end	The entire system has not been validated together
+GTA VI execution	Not demonstrated	No successful complete game launch is claimed
+
+ENGINEERING STANDARDS
 
 Every significant change should provide:
 
-Requirement	Purpose
+REQUIREMENT	PURPOSE
 Implementation evidence	Demonstrate what was actually changed
 Validation results	Confirm expected behaviour
 Safety analysis	Identify possible regressions
@@ -120,7 +133,9 @@ Graphics compatibility is one of the most technically demanding areas of LEONIDA
 
 The project investigates the interaction between graphics interfaces, shader formats and GPU execution environments.
 
-Technology	Research area
+GRAPHICS TECHNOLOGIES
+
+TECHNOLOGY	RESEARCH AREA
 Direct3D 12	Graphics API compatibility
 DXGI	Graphics infrastructure and resource handling
 Vulkan	Potential graphics backend
@@ -128,7 +143,7 @@ SPIR-V	Intermediate shader representation
 Shader indexing	Identification and retrieval
 GPU drivers	Hardware and driver compatibility
 
-Shader management
+SHADER MANAGEMENT
 
 The shader infrastructure investigates multiple identification mechanisms, including:
 
@@ -146,7 +161,7 @@ These mechanisms are being developed and validated incrementally.
 
 The roadmap represents the intended engineering direction, not guaranteed release dates.
 
-Phase	Development objective	State
+PHASE	DEVELOPMENT OBJECTIVE	STATE
 01	Core architecture	In progress
 02	Executable loading	In progress
 03	Runtime compatibility	In progress
@@ -165,7 +180,9 @@ Phase	Development objective	State
 
 LEONIDA investigates compatibility with modern PC hardware.
 
-Component	Target
+HARDWARE TARGETS
+
+COMPONENT	TARGET
 Operating environment	Windows PC
 GPU architecture	Modern AMD and NVIDIA GPUs
 Graphics backend	Vulkan
@@ -173,7 +190,7 @@ CPU	Modern x86-64 processors
 Memory	Dependent on runtime and software requirements
 Storage	Dependent on software requirements
 
-Performance objectives
+PERFORMANCE OBJECTIVES
 
 The project aims to investigate:
 
@@ -193,17 +210,11 @@ No guaranteed FPS, hardware compatibility or successful GTA VI execution is curr
 
 Visual documentation will be added as development progresses.
 
-Image	Description
+IMAGE	DESCRIPTION
 leonida-banner.png	Official project banner
 leonida-architecture.png	Runtime architecture
 leonida-development.png	Development environment
 leonida-graphics.png	Graphics infrastructure
-
-<p align="center">
-  <img src="docs/assets/leonida-architecture.png" alt="LEONIDA architecture diagram" width="90%">
-</p>
-
-Architecture image to be added.
 
 ⸻
 
@@ -262,7 +273,7 @@ No proprietary game files, unauthorized game copies or copyrighted executable di
 
 LEONIDA is guided by three fundamental principles.
 
-Principle	Meaning
+PRINCIPLE	MEANING
 INDEPENDENCE	Build and maintain an independent software architecture
 VERIFIABILITY	Support technical claims with reproducible evidence
 ENGINEERING	Prioritize correctness, reliability and stability
@@ -281,6 +292,11 @@ The project remains experimental.
 
 A complete successful execution of GTA VI has not yet been demonstrated.
 
-LEONIDA — Independent Research. Independent Engineering. Continuous Development.
+⸻
 
+<p align="center">
+  <strong>LEONIDA</strong>
+</p>
+<p align="center">
+  INDEPENDENT RESEARCH · INDEPENDENT ENGINEERING · CONTINUOUS DEVELOPMENT
 </p>
