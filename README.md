@@ -218,32 +218,6 @@ leonida-graphics.png	Graphics infrastructure
 
 ⸻
 
-08 — REPOSITORY STRUCTURE
-
-The repository will progressively contain the implementation, technical documentation, development reports and validation material.
-
-ViceX/
-│
-├── README.md
-│
-├── docs/
-│   ├── architecture/
-│   ├── graphics/
-│   ├── runtime/
-│   └── assets/
-│
-├── runtime/
-├── loader/
-├── graphics/
-├── shaders/
-├── compatibility/
-├── tests/
-└── reports/
-
-This is the intended repository organization. Directories and source files will be added as they become available.
-
-⸻
-
 09 — INDEPENDENCE & LEGAL NOTICE
 
 ViceX is an independent research and development project.
