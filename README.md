@@ -1,7 +1,7 @@
 LEONIDA
 
 <p align="center">
-  <img src="docs/assets/leonida-banner.png" alt="LEONIDA — Project Banner" width="100%">
+  <img src="docs/assets/grand_theft_auto_vice_city_text_logo_by_95wolfie95_dcg8jdj.png" alt="LEONIDA — Project Banner" width="100%">
 </p>
 <h3 align="center">Independent Xbox-to-PC Compatibility Research Project</h3>
 <p align="center">
