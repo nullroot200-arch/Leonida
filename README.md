@@ -40,7 +40,7 @@ Performance research	Investigate efficient execution on modern PC hardware
 ⸻
 <p align="center">
   <strong>
-    <span style="color:red;">THE SOURCE CODE WILL BE RELEASED TONIGHT AT 9:00 PM (ITALIAN TIME).</span>
+    <span style="color:red;">🚨THE SOURCE CODE WILL BE RELEASED TONIGHT AT 9:00 PM (ITALIAN TIME).</span>
   </strong>
 </p>
 
