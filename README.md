@@ -1,138 +1,286 @@
-▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄     
-██▄▄██ ██▄▄██ ██▄▄██ ██▄▄▄▄▄▄▄▄▄██ ██▄▄▄▄▄▄▄▄▄██      ██▄▄▄▄▄▄▄▄▄██ ██▄▄██ ██▄▄▄▄▄▄▄▄▄▄▄▄▄▄██ ██▄▄██ ██▄▄██     
-██████ ██████ ██████ ████▀▀▀▀▀████ ████▀▀▀▀▀████      ████▀▀▀▀▀████ ██████ ███▀▀▀▀▀██▀▀▀▀▀███ ██████ ██████     
-█████▓ ██████ ██████ █████▄▀██████ █████▄▀██████      █████▄▀██████ ██████ ████▄▀█████▄▀█████ ██████ ██████     
-██▒▓█▒ ██▒▓██ ██▒▓██ ██▓███ ▀▄▄▄▄█ ██▓█ █ █▄▄▄▄▀      ██▓███ ▀▄▄▄▄█ ██▒▓██ █▄▄▄▀ ██▓█ █ █▄▄▄▀ ██▒▓██▄▀█▓▓██     
-██░▒█░ ██░▒██ ██░▒██ ██░▒██        ██▒▓ ▀▄▄▄▄▄▄▄      ██░▒██        ██░▒██       ██▒▓ █       ██░▒▄▄▄▄▄████     
-█▓█░▓█ █▓█░▓█ █▓█░▓█ █▓█░▓█        ██░▒▒▒▒▒▒▒▒ █      █▓█░▓█        █▓█░▓█       ██░▒▓█       ▀▀▀▀▀▀▀▄▓▒░▓█     
-█▒▓█▒░ █▒▓█▒█ █▒▓█▒█ █▒▓█▒█ ▄▀▀▀▀█ █▓█░▓▄▀▀▀▀▀▀▀      █▒▓█▒█ ▄▀▀▀▀█ █▒▓█▒█       █▓█░▓█       ▄▀▀▀▀█ █░▒░▒█     
-█░▒▓░▒ █░▒▓░█ █░▒▓░█ █░▒▓░█ █ ▓▓ █ █▒▓█▒█ ▄▀▀▀▀█      █░▒▓░█ █ ▓▓ █ █░▒▓░█       █▒▓█▒█       █░▒▓░█ █▓░▓░█     
-▐▌░▒▒▌▄▐▒▒▒▐▌ █ ▒▒ █ █ ░▒ ▀▀▀ ▒▒ █ █ ░▒ ▀▀▀ ▒▒ █      █ ░▒ ▀▀▀ ▒▒ █ █ ▒▒ █       █ ░▒ █       █ ▒▒ █ █ ▒▒ █     
- ▓ ░░░░░░░ ▓  █ ░░ █ █ ░░░░░░░░░ █ █ ░░░░░░░░░ █      █ ░░░░░░░░░ █ █ ░░ █       █ ░░ █       █ ░░ ▀▀▀ ░░ █     
-  ▀▄▄▄▄▄▄▄▀   █▄▄▄▄▀ █▄▄▄▄▄▄▄▄▄▄▄▀ █▄▄▄▄▄▄▄▄▄▄▄▀      █▄▄▄▄▄▄▄▄▄▄▄▀ █▄▄▄▄▀       █▄▄▄▄▀       █▄▄▄▄▄▄▄▄▄▄▄▀
-Experimental Xbox-to-PC compatibility runtime
+LEONIDA
 
-VICE CITY is an experimental software project focused on researching
-and developing a PC runtime environment for Xbox game compatibility.
+<p align="center">
+  <img src="docs/assets/leonida-banner.png" alt="LEONIDA — Project Banner" width="100%">
+</p>
+<h3 align="center">Independent Xbox-to-PC Compatibility Research Project</h3>
+<p align="center">
+  Researching runtime compatibility, executable loading and graphics translation for PC environments.
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PROJECT-EXPERIMENTAL-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PLATFORM-PC-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/GRAPHICS-VULKAN-purple?style=for-the-badge">
+</p>
 
-The project explores the components required to bridge console-oriented
-software interfaces and a PC graphics environment. Development is
-organized into engineering missions, with an emphasis on
-reproducibility, diagnostics, and protecting original game data.
+⸻
 
-> [`<strong>`{=html}PROJECT STATUS:
-> EXPERIMENTAL`</strong>`{=html}]{style=“color:#e53935”} — A complete,
-> playable implementation has not been demonstrated. Compatibility and
-> performance are not guaranteed.
+01 — PROJECT OVERVIEW
 
-────────
+LEONIDA is an independent research and development project focused on exploring the technical foundations required to run Xbox-oriented software environments on PC hardware.
 
-Project goals
+The project investigates the development of a compatibility runtime capable of handling executable loading, system interfaces, graphics translation and hardware interaction.
 
-• Research the requirements for running supported Xbox game components
-in a PC environment.
-• Develop a structured runtime and loader architecture.
-• Investigate graphics-interface compatibility and translation paths.
-• Improve diagnostics, logging, and reproducibility.
-• Preserve original game files and avoid unnecessary modifications.
+Rather than modifying original game files, LEONIDA aims to develop an independent compatibility infrastructure around the software execution environment.
 
-Technical areas
+The project is currently under active development.
 
-────────
+Its architecture, components and implementation are being developed through structured engineering missions, technical reports and incremental validation.
 
-Area                                Focus
+Project vision
 
-────────
+Objective	Description
+Runtime independence	Develop an independent execution and compatibility environment
+Executable infrastructure	Research PE loading and executable compatibility
+Graphics translation	Investigate Direct3D and Vulkan interoperability
+Shader infrastructure	Develop shader identification, translation and management
+System compatibility	Reproduce selected operating-system and platform interfaces
+Performance research	Investigate efficient execution on modern PC hardware
 
-Runtime architecture                Core runtime components and
-execution flow
+⸻
 
-Loader                              Module discovery, loading, and
-symbol resolution
+02 — TECHNICAL ARCHITECTURE
 
-DXGI                                Graphics infrastructure
-compatibility
+LEONIDA is designed as a modular software architecture.
 
-Direct3D                            Graphics API behavior and interface
-mapping
+Each subsystem has a specific responsibility and can be developed, tested and documented independently.
 
-Vulkan                              Potential PC graphics backend and
-translation layer
+Subsystem	Main responsibility	Current status
+PE Loader	Executable loading infrastructure	In development
+Runtime Core	Runtime initialization and management	In development
+Registry Shims	Registry compatibility and resolution	Implementation work completed in selected areas
+DXGI Loader	DXGI module loading and safety	Documented safety work completed
+DXGI Compatibility	Graphics interface compatibility	In development
+D3D12 Compatibility	Direct3D 12 infrastructure	In development
+Vulkan Backend	Vulkan rendering infrastructure	In development
+Shader System	Shader identification and translation	In development
+Export Resolution	Export names, ordinals and typed resolution	Improvements implemented
 
-Shader pipeline                     Shader identification, indexing,
-and conversion research
+Statuses describe individual development areas, not complete end-to-end compatibility.
 
-Registry and shims                  Typed exports, compatibility
-mappings, and API shims
+Graphics translation architecture
 
-Diagnostics                         Structured logs, reports, and validation
+The intended graphics architecture is organized around this conceptual pipeline:
 
-Development principles
+       Xbox-Oriented Software
+                 |
+                 v
+          Runtime Core
+                 |
+                 v
+        Compatibility Layer
+                 |
+                 v
+          DXGI / D3D12
+                 |
+                 v
+       Graphics Translation
+                 |
+                 v
+              Vulkan
+                 |
+                 v
+           PC Hardware
 
-1. Evidence first: compatibility claims must be supported by tests,
-logs, or reproducible analysis.
-2. Incremental engineering: changes are divided into focused
-missions with explicit outcomes.
-3. Data integrity: original game files remain unchanged unless a
-reviewed test requires otherwise.
-4. Traceability: document design decisions, limitations, and known
-failures.
-5. No premature claims: passing an isolated test does not establish
-full-game support.
+The complete pipeline is an architectural objective. Its full operation has not yet been demonstrated.
 
-Current development
+⸻
 
-Work has included investigation and implementation around loader
-behavior, export resolution, DXGI-related safety, runtime shims, shader
-indexing, and graphics-backend documentation.
+03 — ENGINEERING PROGRESS
 
-Individual components may be implemented or tested independently. This
-does not establish end-to-end game compatibility.
+Development is organized into missions with explicit objectives, implementation boundaries and validation requirements.
 
-[<strong>{=html}IMPORTANT:</strong>{=html}]{style=“color:#e53935”}
-The project remains incomplete until the full execution path has been
-validated with repeatable results.
+Selected development milestones
 
-Roadmap
+Mission	Area	Result
+12A	Shader index documentation	Completed
+12C.3	DXGI loader safety	Completed with limitations
+12C.3	Export resolution	Name/ordinal collision handling addressed
+12C.3	Registry infrastructure	Typed ExportKey implementation documented
 
-☐ Complete and validate core runtime components.
-☐ Expand loader and module compatibility tests.
-☐ Validate graphics-interface behavior.
-☐ Improve shader pipeline coverage and diagnostics.
-☐ Run controlled integration tests.
-☐ Measure performance after functional correctness is established.
-☐ Publish reproducible test results and remaining limitations.
+Engineering standards
 
-Performance and compatibility
+Every significant change should provide:
 
-The long-term objective is to investigate whether a compatible PC
-execution path can be achieved with acceptable performance.
+Requirement	Purpose
+Implementation evidence	Demonstrate what was actually changed
+Validation results	Confirm expected behaviour
+Safety analysis	Identify possible regressions
+Technical report	Preserve development history
+Limitations	Explicitly document unfinished work
 
-No FPS figure, launch guarantee, or full-game compatibility claim is
-made at this stage. Results depend on the implementation, game
-workload, drivers, hardware, and completeness of the compatibility
-layer.
+The project does not consider a component complete merely because its documentation has been written.
 
-Safety and file integrity
+⸻
 
-• Keep clean backups of source and test data.
-• Prefer read-only inspection of original game files.
-• Store generated files, logs, and test artifacts separately.
-• Do not execute unknown binaries or scripts from untrusted sources.
-• Record hashes when tracking files across test runs.
+04 — GRAPHICS & SHADER INFRASTRUCTURE
 
-[<strong>{=html}VICE CITY does not claim affiliation with, endorsement
-by, or ownership of any third-party platform or
-publisher.</strong>{=html}]{style=“color:#e53935”} Trademarks and
-game-related rights belong to their respective owners.
+Graphics compatibility is one of the most technically demanding areas of LEONIDA.
 
-Disclaimer
+The project investigates the interaction between graphics interfaces, shader formats and GPU execution environments.
 
-VICE CITY is an independent experimental compatibility research project.
-It is not an official product, emulator certification, or guarantee that
-any particular game will run. Use only software and files you are
-legally entitled to use.
+Technology	Research area
+Direct3D 12	Graphics API compatibility
+DXGI	Graphics infrastructure and resource handling
+Vulkan	Potential graphics backend
+SPIR-V	Intermediate shader representation
+Shader indexing	Identification and retrieval
+GPU drivers	Hardware and driver compatibility
 
-────────
+Shader management
 
-VICE CITY — Research. Runtime. Compatibility.
+The shader infrastructure investigates multiple identification mechanisms, including:
+
+* Shader-stage identification.
+* fssm_sha256-based indexing.
+* fspx_code_sha256-based indexing.
+* Deterministic shader lookup.
+* SPIR-V file management.
+
+These mechanisms are being developed and validated incrementally.
+
+⸻
+
+05 — DEVELOPMENT ROADMAP
+
+The roadmap represents the intended engineering direction, not guaranteed release dates.
+
+Phase	Development objective	State
+01	Core architecture	In progress
+02	Executable loading	In progress
+03	Runtime compatibility	In progress
+04	DXGI infrastructure	In progress
+05	D3D12 compatibility	In progress
+06	Vulkan backend	Planned / in development
+07	Shader translation	In progress
+08	Runtime integration	Planned
+09	Hardware validation	Planned
+10	Performance optimization	Planned
+11	Experimental release	Planned
+
+⸻
+
+06 — HARDWARE & PERFORMANCE TARGETS
+
+LEONIDA investigates compatibility with modern PC hardware.
+
+Component	Target
+Operating environment	Windows PC
+GPU architecture	Modern AMD and NVIDIA GPUs
+Graphics backend	Vulkan
+CPU	Modern x86-64 processors
+Memory	Dependent on runtime and software requirements
+Storage	Dependent on software requirements
+
+Performance objectives
+
+The project aims to investigate:
+
+* Efficient CPU execution.
+* GPU resource management.
+* Shader compilation overhead.
+* Graphics translation overhead.
+* Memory management.
+* Frame-time stability.
+* Multi-GPU-driver compatibility.
+
+No guaranteed FPS, hardware compatibility or successful GTA VI execution is currently claimed.
+
+⸻
+
+07 — PROJECT GALLERY
+
+Visual documentation will be added as development progresses.
+
+Image	Description
+leonida-banner.png	Official project banner
+leonida-architecture.png	Runtime architecture
+leonida-development.png	Development environment
+leonida-graphics.png	Graphics infrastructure
+
+<p align="center">
+  <img src="docs/assets/leonida-architecture.png" alt="LEONIDA architecture diagram" width="90%">
+</p>
+
+Architecture image to be added.
+
+⸻
+
+08 — REPOSITORY STRUCTURE
+
+The repository will progressively contain the implementation, technical documentation, development reports and validation material.
+
+LEONIDA/
+│
+├── README.md
+│
+├── docs/
+│   ├── architecture/
+│   ├── graphics/
+│   ├── runtime/
+│   └── assets/
+│
+├── runtime/
+│
+├── loader/
+│
+├── graphics/
+│
+├── shaders/
+│
+├── compatibility/
+│
+├── tests/
+│
+└── reports/
+
+This is the intended repository organization. Directories and source files will be added as they become available.
+
+⸻
+
+09 — INDEPENDENCE & LEGAL NOTICE
+
+LEONIDA is an independent research and development project.
+
+It is not affiliated with, endorsed by or officially connected to:
+
+* Rockstar Games
+* Take-Two Interactive
+* Microsoft
+* Xbox
+
+All trademarks belong to their respective owners.
+
+The project aims to maintain independently developed source code and properly licensed dependencies.
+
+No proprietary game files, unauthorized game copies or copyrighted executable distributions are intended to be included in this repository.
+
+⸻
+
+10 — DEVELOPMENT PHILOSOPHY
+
+LEONIDA is guided by three fundamental principles.
+
+Principle	Meaning
+INDEPENDENCE	Build and maintain an independent software architecture
+VERIFIABILITY	Support technical claims with reproducible evidence
+ENGINEERING	Prioritize correctness, reliability and stability
+
+Every milestone should move the project closer to a functional and independently verifiable compatibility environment.
+
+⸻
+
+11 — FINAL OBJECTIVE
+
+The long-term ambition of LEONIDA is to develop an experimental Xbox-to-PC compatibility environment.
+
+Achieving this requires substantial engineering work across executable loading, runtime interfaces, graphics translation, shader management and hardware compatibility.
+
+The project remains experimental.
+
+A complete successful execution of GTA VI has not yet been demonstrated.
+
+LEONIDA — Independent Research. Independent Engineering. Continuous Development.
+
+</p>
