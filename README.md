@@ -1,7 +1,7 @@
  <p align="center">
-  <img src="grand_theft_auto_vice_city_text_logo_by_95wolfie95_dcg8jdj.png" alt="LEONIDA — Project Banner" width="100%">
+  <img src="grand_theft_auto_vice_city_text_logo_by_95wolfie95_dcg8jdj.png" alt="ViceX — Official Project Banner" width="100%">
 </p>
-<h1 align="center">LEONIDA</h1>
+<h1 align="center">ViceX</h1>
 <h3 align="center">INDEPENDENT XBOX-TO-PC COMPATIBILITY RESEARCH PROJECT</h3>
 <p align="center">
   Researching runtime compatibility, executable loading and graphics translation for PC environments.
@@ -17,19 +17,19 @@
 
 01 — PROJECT OVERVIEW
 
-LEONIDA is an independent research and development project focused on exploring the technical foundations required to run Xbox-oriented software environments on PC hardware.
+ViceX is an independent research and development project focused on exploring the technical foundations required to run Xbox-oriented software environments on PC hardware.
 
 The project investigates the development of a compatibility runtime capable of handling executable loading, system interfaces, graphics translation and hardware interaction.
 
-Rather than modifying original game files, LEONIDA aims to develop an independent compatibility infrastructure around the software execution environment.
+Rather than modifying original game files, ViceX aims to develop an independent compatibility infrastructure around the software execution environment.
 
 The project is currently under active development.
 
 Its architecture, components and implementation are being developed through structured engineering missions, technical reports and incremental validation.
 
-PROJECT VISION
+Project vision
 
-OBJECTIVE	DESCRIPTION
+Objective	Description
 Runtime independence	Develop an independent execution and compatibility environment
 Executable infrastructure	Research PE loading and executable compatibility
 Graphics translation	Investigate Direct3D and Vulkan interoperability
@@ -41,13 +41,13 @@ Performance research	Investigate efficient execution on modern PC hardware
 
 02 — TECHNICAL ARCHITECTURE
 
-LEONIDA is designed as a modular software architecture.
+ViceX is designed as a modular software architecture.
 
 Each subsystem has a specific responsibility and can be developed, tested and documented independently.
 
-CORE COMPONENTS
+Core components
 
-SUBSYSTEM	MAIN RESPONSIBILITY	DEVELOPMENT STATUS
+Subsystem	Main responsibility	Current status
 PE Loader	Executable loading infrastructure	In development
 Runtime Core	Runtime initialization and management	In development
 Registry Shims	Registry compatibility and resolution	Selected implementation work completed
@@ -60,7 +60,7 @@ Export Resolution	Export names, ordinals and typed resolution	Improvements imple
 
 Statuses describe individual development areas, not complete end-to-end compatibility.
 
-GRAPHICS TRANSLATION ARCHITECTURE
+Graphics translation architecture
 
 The intended graphics architecture is organized around this conceptual pipeline:
 
@@ -92,17 +92,17 @@ The complete pipeline is an architectural objective. Its full operation has not 
 
 Development is organized into missions with explicit objectives, implementation boundaries and validation requirements.
 
-SELECTED DEVELOPMENT MILESTONES
+Selected development milestones
 
-MISSION	ENGINEERING AREA	RESULT
+Mission	Engineering area	Result
 12A	Shader index documentation	Completed
 12C.3	DXGI loader safety	Completed with limitations
 12C.3	Export resolution	Name/ordinal collision handling addressed
 12C.3	Registry infrastructure	Typed ExportKey implementation documented
 
-CURRENT PROJECT SITUATION
+Current project situation
 
-AREA	CURRENT SITUATION	WHAT IT MEANS
+Area	Current situation	What it means
 Architecture	Modular architecture under development	Core design is being progressively established
 Loader	Development ongoing	Complete executable compatibility is not established
 DXGI	Selected safety work completed	Further compatibility implementation is required
@@ -112,11 +112,11 @@ Shaders	Infrastructure under development	Complete shader translation is not esta
 Runtime integration	Not yet demonstrated end-to-end	The entire system has not been validated together
 GTA VI execution	Not demonstrated	No successful complete game launch is claimed
 
-ENGINEERING STANDARDS
+Engineering standards
 
 Every significant change should provide:
 
-REQUIREMENT	PURPOSE
+Requirement	Purpose
 Implementation evidence	Demonstrate what was actually changed
 Validation results	Confirm expected behaviour
 Safety analysis	Identify possible regressions
@@ -129,13 +129,13 @@ The project does not consider a component complete merely because its documentat
 
 04 — GRAPHICS & SHADER INFRASTRUCTURE
 
-Graphics compatibility is one of the most technically demanding areas of LEONIDA.
+Graphics compatibility is one of the most technically demanding areas of ViceX.
 
 The project investigates the interaction between graphics interfaces, shader formats and GPU execution environments.
 
-GRAPHICS TECHNOLOGIES
+Graphics technologies
 
-TECHNOLOGY	RESEARCH AREA
+Technology	Research area
 Direct3D 12	Graphics API compatibility
 DXGI	Graphics infrastructure and resource handling
 Vulkan	Potential graphics backend
@@ -143,7 +143,7 @@ SPIR-V	Intermediate shader representation
 Shader indexing	Identification and retrieval
 GPU drivers	Hardware and driver compatibility
 
-SHADER MANAGEMENT
+Shader management
 
 The shader infrastructure investigates multiple identification mechanisms, including:
 
@@ -161,7 +161,7 @@ These mechanisms are being developed and validated incrementally.
 
 The roadmap represents the intended engineering direction, not guaranteed release dates.
 
-PHASE	DEVELOPMENT OBJECTIVE	STATE
+Phase	Development objective	State
 01	Core architecture	In progress
 02	Executable loading	In progress
 03	Runtime compatibility	In progress
@@ -178,11 +178,11 @@ PHASE	DEVELOPMENT OBJECTIVE	STATE
 
 06 — HARDWARE & PERFORMANCE TARGETS
 
-LEONIDA investigates compatibility with modern PC hardware.
+ViceX investigates compatibility with modern PC hardware.
 
-HARDWARE TARGETS
+Hardware targets
 
-COMPONENT	TARGET
+Component	Target
 Operating environment	Windows PC
 GPU architecture	Modern AMD and NVIDIA GPUs
 Graphics backend	Vulkan
@@ -190,7 +190,7 @@ CPU	Modern x86-64 processors
 Memory	Dependent on runtime and software requirements
 Storage	Dependent on software requirements
 
-PERFORMANCE OBJECTIVES
+Performance objectives
 
 The project aims to investigate:
 
@@ -210,8 +210,8 @@ No guaranteed FPS, hardware compatibility or successful GTA VI execution is curr
 
 Visual documentation will be added as development progresses.
 
-IMAGE	DESCRIPTION
-leonida-banner.png	Official project banner
+Image	Description
+grand_theft_auto_vice_city_text_logo_by_95wolfie95_dcg8jdj.png	Official project visual
 leonida-architecture.png	Runtime architecture
 leonida-development.png	Development environment
 leonida-graphics.png	Graphics infrastructure
@@ -222,7 +222,7 @@ leonida-graphics.png	Graphics infrastructure
 
 The repository will progressively contain the implementation, technical documentation, development reports and validation material.
 
-LEONIDA/
+ViceX/
 │
 ├── README.md
 │
@@ -233,17 +233,11 @@ LEONIDA/
 │   └── assets/
 │
 ├── runtime/
-│
 ├── loader/
-│
 ├── graphics/
-│
 ├── shaders/
-│
 ├── compatibility/
-│
 ├── tests/
-│
 └── reports/
 
 This is the intended repository organization. Directories and source files will be added as they become available.
@@ -252,7 +246,7 @@ This is the intended repository organization. Directories and source files will 
 
 09 — INDEPENDENCE & LEGAL NOTICE
 
-LEONIDA is an independent research and development project.
+ViceX is an independent research and development project.
 
 It is not affiliated with, endorsed by or officially connected to:
 
@@ -271,9 +265,9 @@ No proprietary game files, unauthorized game copies or copyrighted executable di
 
 10 — DEVELOPMENT PHILOSOPHY
 
-LEONIDA is guided by three fundamental principles.
+ViceX is guided by three fundamental principles.
 
-PRINCIPLE	MEANING
+Principle	Meaning
 INDEPENDENCE	Build and maintain an independent software architecture
 VERIFIABILITY	Support technical claims with reproducible evidence
 ENGINEERING	Prioritize correctness, reliability and stability
@@ -284,7 +278,7 @@ Every milestone should move the project closer to a functional and independently
 
 11 — FINAL OBJECTIVE
 
-The long-term ambition of LEONIDA is to develop an experimental Xbox-to-PC compatibility environment.
+The long-term ambition of ViceX is to develop an experimental Xbox-to-PC compatibility environment.
 
 Achieving this requires substantial engineering work across executable loading, runtime interfaces, graphics translation, shader management and hardware compatibility.
 
@@ -295,7 +289,7 @@ A complete successful execution of GTA VI has not yet been demonstrated.
 ⸻
 
 <p align="center">
-  <strong>LEONIDA</strong>
+  <strong>ViceX</strong>
 </p>
 <p align="center">
   INDEPENDENT RESEARCH · INDEPENDENT ENGINEERING · CONTINUOUS DEVELOPMENT
