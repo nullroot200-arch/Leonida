@@ -34,7 +34,7 @@ happens **on your PC, from your own copy of the game**.
 > Everything the build creates (the generated shaders, extracted assets, the runtime folder and your saves) comes
 > from your game and stays on your PC. Never share those files.
 
-Discord: COMING...
+Discord: https://discord.gg/kzapC4Spj
 <br>
 
 ## Project status
